@@ -2,6 +2,12 @@
 
 Tracked changes and releases for anti-ai-slop.
 
+## v2.1.0 — picker published to npm
+
+- Published the interactive picker to npm as **`anti-ai-slop`** (bin `anti-ai-slop`, public access). `npx anti-ai-slop` is now a real one-command install for all seven agents.
+- Confirmed the publish-ready package (23 files: `index.mjs`, `lib/`, all 17 skills, and the two contrast helpers).
+- Version bumped to v2.1.0 across package, plugin, CLI, READMEs, and guide to keep the repo in sync with the published package.
+
 ## v2.0.3 — project completeness
 
 - Added `CONTRIBUTING.md` (how to add an indicator, fix the installer, and submit).

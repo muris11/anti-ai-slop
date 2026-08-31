@@ -44,7 +44,7 @@ function displayDir(agent) {
 
 async function main() {
   if (process.argv.includes('--version') || process.argv.includes('-v')) {
-    console.log('anti-ai-slop 2.0.3')
+    console.log('anti-ai-slop 2.1.0')
     return
   }
 

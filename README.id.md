@@ -13,7 +13,7 @@ Sebuah filter yang menghentikan AI agent menghasilkan UI, teks, dan kode **AI sl
 &nbsp;
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.0.3-6366f1?style=flat-square)](#)
+[![Version](https://img.shields.io/badge/version-2.1.0-6366f1?style=flat-square)](#)
 [![skills.sh](https://img.shields.io/badge/skills.sh-muris11%2Fanti--ai--slop-111827?style=flat-square&logo=github)](https://www.skills.sh/muris11/anti-ai-slop)
 [![GitHub stars](https://img.shields.io/github/stars/muris11/anti-ai-slop?style=flat-square)](https://github.com/muris11/anti-ai-slop)
 
@@ -105,7 +105,7 @@ npx anti-ai-slop
 
 Picker menginstal folder dan **menulis pointer sesi** yang memuat filter setiap sesi — satu-satunya jalur yang menulis pointer otomatis.
 
-> `anti-ai-slop` dipublikasikan sebagai paket npm. Untuk menjalankan picker dari clone, gunakan `npm i && npm run installer` di folder `cli/` repo ini.
+> `anti-ai-slop` dipublikasikan di npm (`npx anti-ai-slop`), jadi ini benar-benar one-command yang menarik skill terbaru. Untuk menjalankan dari clone, gunakan `npm i && npm run installer` di folder `cli/` repo ini.
 
 ### 3. Plugin (Claude Code)
 
@@ -136,23 +136,23 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/muris11/anti-ai-slop/m
 
 | Skill | Cakupan | Ships in |
 |---|---|---|
-| **antislop** | Filter inti selalu-aktif: tes tujuan, tier aturan, Delivery Gate | v2.0.3 |
-| **antislop-master** | Taksonomi master P0–P6: ~180 indikator + protokol audit | v2.0.3 |
-| **antislop-ui** | UI & visual: warna, komponen, dekorasi, motion, struktur | v2.0.3 |
-| **antislop-layout** | Layout & komposisi: hero, section, simetri, grid, spacing | v2.0.3 |
-| **antislop-copywriting** | Teks & copy: headline, CTA, tone, pola anti-AI-writing | v2.0.3 |
-| **antislop-human** | Manusia: kontras (dengan checker), keyboard, fokus, state | v2.0.3 |
-| **antislop-layoutmobile** | Layout mobile: breakpoint, grid, overflow, tap target | v2.0.3 |
-| **antislop-mobile** | Mobile & native: reflow, tanpa overflow, target 44px, Flutter | v2.0.3 |
-| **antislop-dashboard** | Dashboard & data: metric card, chart, tabel, state lengkap | v2.0.3 |
-| **antislop-forms** | Form & state: validasi, empty/loading/error/offline | v2.0.3 |
-| **antislop-motion** | Motion: alasan UX, satu animasi fokus, reduced-motion | v2.0.3 |
-| **antislop-nav** | Navigasi & chrome: IA nyata, tanpa dead link, footer jujur | v2.0.3 |
-| **antislop-authenticity** | Autentisitas: tanpa metric, testimoni, logo, atau klaim palsu | v2.0.3 |
-| **antislop-designsystem** | Konsistensi design system: token nyata, skala spacing, paritas tema | v2.0.3 |
-| **antislop-imagery** | Imagery & dekorasi: ilustrasi, background, ikon, media | v2.0.3 |
-| **antislop-code** | Komentar kode: hapus komentar AI-slop, pertahankan yang berharga | v2.0.3 |
-| **slop** | Loader sekali-jalan untuk seluruh keluarga sekaligus | v2.0.3 |
+| **antislop** | Filter inti selalu-aktif: tes tujuan, tier aturan, Delivery Gate | v2.1.0 |
+| **antislop-master** | Taksonomi master P0–P6: ~180 indikator + protokol audit | v2.1.0 |
+| **antislop-ui** | UI & visual: warna, komponen, dekorasi, motion, struktur | v2.1.0 |
+| **antislop-layout** | Layout & komposisi: hero, section, simetri, grid, spacing | v2.1.0 |
+| **antislop-copywriting** | Teks & copy: headline, CTA, tone, pola anti-AI-writing | v2.1.0 |
+| **antislop-human** | Manusia: kontras (dengan checker), keyboard, fokus, state | v2.1.0 |
+| **antislop-layoutmobile** | Layout mobile: breakpoint, grid, overflow, tap target | v2.1.0 |
+| **antislop-mobile** | Mobile & native: reflow, tanpa overflow, target 44px, Flutter | v2.1.0 |
+| **antislop-dashboard** | Dashboard & data: metric card, chart, tabel, state lengkap | v2.1.0 |
+| **antislop-forms** | Form & state: validasi, empty/loading/error/offline | v2.1.0 |
+| **antislop-motion** | Motion: alasan UX, satu animasi fokus, reduced-motion | v2.1.0 |
+| **antislop-nav** | Navigasi & chrome: IA nyata, tanpa dead link, footer jujur | v2.1.0 |
+| **antislop-authenticity** | Autentisitas: tanpa metric, testimoni, logo, atau klaim palsu | v2.1.0 |
+| **antislop-designsystem** | Konsistensi design system: token nyata, skala spacing, paritas tema | v2.1.0 |
+| **antislop-imagery** | Imagery & dekorasi: ilustrasi, background, ikon, media | v2.1.0 |
+| **antislop-code** | Komentar kode: hapus komentar AI-slop, pertahankan yang berharga | v2.1.0 |
+| **slop** | Loader sekali-jalan untuk seluruh keluarga sekaligus | v2.1.0 |
 
 ---
 
@@ -185,7 +185,7 @@ Core meminta, *"Kapan ini berlaku — selama pekerjaan, atau setelah selesai?"* 
 
 ## Roadmap
 
-Lihat [ROADMAP.md](ROADMAP.md). **v2.0.0** menambahkan taksonomi master dan sembilan skill fokus; **v2.0.1** merapikan README, memfinalisasi lisensi, dan memverifikasi indeks skills.sh; **v2.0.2** memisahkan README menjadi bahasa Inggris dan Indonesia, lalu menulis ulang SECURITY.md; **v2.0.3** menambahkan CI, contributing, template, dan polesan repo.
+Lihat [ROADMAP.md](ROADMAP.md). **v2.0.0** menambahkan taksonomi master dan sembilan skill fokus; **v2.0.1** merapikan README, memfinalisasi lisensi, dan memverifikasi indeks skills.sh; **v2.0.2** memisahkan README menjadi bahasa Inggris dan Indonesia, lalu menulis ulang SECURITY.md; **v2.0.3** menambahkan CI, contributing, template, dan polesan repo; **v2.1.0** memublikasikan picker interaktif, jadi `npx anti-ai-slop` benar-benar one-command.
 
 ---
 
