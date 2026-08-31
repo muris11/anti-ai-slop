@@ -2,6 +2,16 @@
 
 Tracked changes and releases for anti-ai-slop.
 
+## v2.0.2 — bilingual README split + security polish
+
+- Split the README into two standalone documents, each with a crossing language link:
+  - `README.md` — English.
+  - `README.id.md` — Bahasa Indonesia.
+  - Both link to each other at the top (`[English](README.md)` / `[Bahasa Indonesia](README.id.md)`) and carry the full badge row.
+- Cleaned the license sections in both READMEs to link `LICENSE` with the "do whatever you want" wording (EN and ID).
+- Rewrote `SECURITY.md` to match the `anti-ai-slop` repo identity and be a complete, accurate security boundary document.
+- Version bumped to v2.0.2 across package, plugin, CLI, READMEs, and guide.
+
 ## v2.0.1 — polish release
 
 - Polished the public **README** to a professional standard: clean badge row, feature summary, install matrix, skills reference, usage modes, roadmap, FAQ, and contributing — bilingual (EN / ID).
