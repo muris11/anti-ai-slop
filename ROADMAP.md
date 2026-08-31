@@ -2,6 +2,13 @@
 
 Tracked changes and releases for anti-ai-slop.
 
+## v2.0.1 — polish release
+
+- Polished the public **README** to a professional standard: clean badge row, feature summary, install matrix, skills reference, usage modes, roadmap, FAQ, and contributing — bilingual (EN / ID).
+- Finalized the **LICENSE** as a clean, complete MIT license (standard terms, no drift from the canonical text).
+- Verified all 17 skills carry valid `name` + `description` frontmatter so the skills.sh crawler parses them cleanly; the repo is ready to be listed at `skills.sh/muris11/anti-ai-slop` (it appears once a user runs `npx skills add muris11/anti-ai-slop`).
+- Version bumped to v2.0.1 across package, plugin, CLI, README, and guide.
+
 ## v2.0.0 — master taxonomy
 
 - Added the **master taxonomy** (`antislop-master`): a P0–P6 severity-tiered catalog of ~180 indicators across color, typography, layout, components, copy, motion, UX states, authenticity, code, and platform. This is the canonical audit source for the whole system.
