@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="anti-ai-slop logo">
+  <rect width="240" height="240" rx="34" fill="#16140F"/>
+  <!-- three generic content rows -->
+  <g fill="#F4EFE6" opacity="0.92">
+    <rect x="44" y="70"  width="152" height="18" rx="6"/>
+    <rect x="44" y="112" width="152" height="18" rx="6"/>
+    <rect x="44" y="154" width="152" height="18" rx="6"/>
+  </g>
+  <!-- filter slash removing the middle row -->
+  <rect x="26" y="26" width="188" height="188" rx="30" fill="none" stroke="#E94E24" stroke-width="16" opacity="0"/>
+  <path d="M46 196 L196 44" stroke="#E94E24" stroke-width="18" stroke-linecap="round"/>
+  <!-- small signal dot marking the removed row -->
+  <circle cx="160" cy="121" r="13" fill="#E94E24"/>
+</svg>

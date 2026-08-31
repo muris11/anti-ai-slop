@@ -2,6 +2,8 @@
 
 <div align="center">
 
+<img src="images/logo.svg" alt="logo anti-ai-slop" width="120" height="120" />
+
 **Anti Slop: Aturan untuk AI Coding Agent.**
 
 Sebuah filter yang menghentikan AI agent menghasilkan UI, teks, dan kode **AI slop** yang generik — tanpa membuat hasilnya jadi kaku.
@@ -16,6 +18,8 @@ Sebuah filter yang menghentikan AI agent menghasilkan UI, teks, dan kode **AI sl
 [![GitHub stars](https://img.shields.io/github/stars/muris11/anti-ai-slop?style=flat-square)](https://github.com/muris11/anti-ai-slop)
 
 **17 skill · satu filter selalu-aktif · 7 agent · 3 platform**
+
+<a href="images/anti-ai-slop-banner.jpg"><img src="images/anti-ai-slop-banner.jpg" alt="Anti AI Slop Design" width="100%" /></a>
 
 </div>
 
@@ -37,6 +41,8 @@ AI slop bukan satu teknik. Gradient itu fine. Card grid itu fine. Inter itu fine
 
 1. **Tes tujuan** — bisakah kamu menulis satu kalimat jujur kenapa teknik ini melayani *produk ini*?
 2. **Tes konvergensi** — apakah teknik yang sama muncul di layar/elemen tak-terkait tanpa alasan?
+
+<img src="images/filter-flow.svg" alt="Cara kerja anti-ai-slop: default AI → filter → arah → kerapian" width="100%" />
 
 ---
 
@@ -66,6 +72,8 @@ AI slop bukan satu teknik. Gradient itu fine. Card grid itu fine. Inter itu fine
 | **P4** | Slop kualitas/UX — mengirim pengalaman yang belum utuh |
 | **P5** | Slop autentisitas — data, klaim, atau bukti palsu |
 | **P6** | Slop kode — implementasi yang buruk |
+
+<img src="images/tiers.svg" alt="Tier keparahan anti-ai-slop P0 hingga P6" width="100%" />
 
 Katalog ini juga punya protokol audit **Quick / Full / Deep** supaya bisa memindai sedalam yang dibutuhkan tugas.
 

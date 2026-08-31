@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="how anti-ai-slop works">
+  <rect width="1200" height="440" rx="24" fill="#F4EFE6"/>
+
+  <text x="48" y="64" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24" font-weight="700" fill="#16140F" letter-spacing="1">HOW IT WORKS</text>
+
+  <!-- box 1: default AI -->
+  <g>
+    <rect x="48" y="120" width="240" height="180" rx="16" fill="#16140F"/>
+    <text x="72" y="164" font-family="ui-monospace, Menlo, monospace" font-size="16" font-weight="700" fill="#E94E24">AI DEFAULT</text>
+    <text x="72" y="196" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#F4EFE6">Inter + gradient</text>
+    <text x="72" y="218" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#F4EFE6">centered hero</text>
+    <text x="72" y="240" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#F4EFE6">3 cards + pill CTA</text>
+    <text x="72" y="262" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#F4EFE6">generic copy</text>
+    <text x="72" y="284" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#F4EFE6">fake metrics</text>
+  </g>
+
+  <!-- arrow -->
+  <path d="M300 210 L360 210" stroke="#16140F" stroke-width="6" stroke-linecap="round"/>
+  <path d="M352 200 L368 210 L352 220" fill="none" stroke="#16140F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- box 2: the filter -->
+  <g>
+    <rect x="380" y="120" width="300" height="180" rx="16" fill="#16140F"/>
+    <text x="404" y="164" font-family="ui-monospace, Menlo, monospace" font-size="16" font-weight="700" fill="#F4EFE6">THE FILTER <tspan fill="#E94E24">/</tspan> anti-ai-slop</text>
+    <text x="404" y="200" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#F4EFE6">purpose test — why this product?</text>
+    <text x="404" y="224" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#F4EFE6">convergence test — why everywhere?</text>
+    <text x="404" y="256" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#A3AC8C">no hierarchy · no specificity</text>
+    <text x="404" y="278" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#A3AC8C">no restraint · no opinion</text>
+  </g>
+
+  <!-- arrow -->
+  <path d="M692 210 L752 210" stroke="#16140F" stroke-width="6" stroke-linecap="round"/>
+  <path d="M744 200 L760 210 L744 220" fill="none" stroke="#16140F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- box 3: direction -->
+  <g>
+    <rect x="772" y="120" width="180" height="180" rx="16" fill="#A3AC8C"/>
+    <text x="794" y="164" font-family="ui-monospace, Menlo, monospace" font-size="15" font-weight="700" fill="#16140F">DIRECTION</text>
+    <text x="794" y="196" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#16140F">DESIGN.md</text>
+    <text x="794" y="218" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#16140F">yours, not the</text>
+    <text x="794" y="240" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#16140F">filter's</text>
+  </g>
+
+  <!-- arrow -->
+  <path d="M964 210 L1024 210" stroke="#16140F" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1016 200 L1032 210 L1016 220" fill="none" stroke="#16140F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- box 4: craft -->
+  <g>
+    <rect x="1044" y="120" width="120" height="180" rx="16" fill="#E94E24"/>
+    <text x="1064" y="180" font-family="ui-monospace, Menlo, monospace" font-size="15" font-weight="700" fill="#F4EFE6">CRAFT,</text>
+    <text x="1064" y="204" font-family="ui-monospace, Menlo, monospace" font-size="15" font-weight="700" fill="#F4EFE6">NOT SLOP</text>
+  </g>
+
+  <text x="48" y="356" font-family="ui-monospace, Menlo, monospace" font-size="16" fill="#5A5648">Slop is the unmarked combination of generic defaults repeating because nobody chose them.</text>
+</svg>

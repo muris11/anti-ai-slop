@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="images/logo.svg" alt="anti-ai-slop logo" width="120" height="120" />
+
 # anti-ai-slop
 
 **Anti Slop: Rules for AI Coding Agents.**
@@ -16,6 +18,8 @@ A filter that stops AI agents from generating generic **AI slop** in UI, copy, a
 [![GitHub stars](https://img.shields.io/github/stars/muris11/anti-ai-slop?style=flat-square)](https://github.com/muris11/anti-ai-slop)
 
 **17 skills · one always-on filter · 7 agents · 3 platforms**
+
+<a href="images/anti-ai-slop-banner.jpg"><img src="images/anti-ai-slop-banner.jpg" alt="Anti AI Slop Design" width="100%" /></a>
 
 </div>
 
@@ -37,6 +41,8 @@ AI slop isn't any one technique. A gradient is fine. A card grid is fine. Inter 
 
 1. **Purpose test** — can you write one honest sentence explaining why this technique serves *this* product?
 2. **Convergence test** — does the same technique appear across unrelated screens for no reason?
+
+<img src="images/filter-flow.svg" alt="How anti-ai-slop works: AI default → the filter → direction → craft" width="100%" />
 
 ---
 
@@ -68,6 +74,8 @@ AI slop isn't any one technique. A gradient is fine. A card grid is fine. Inter 
 | **P4** | Quality / UX slop — shipping an incomplete experience |
 | **P5** | Authenticity slop — fake data, claims, or evidence |
 | **P6** | Code slop — sloppy implementation of the design |
+
+<img src="images/tiers.svg" alt="anti-ai-slop severity tiers P0 to P6" width="100%" />
 
 The catalog also ships a **Quick / Full / Deep** audit protocol so you can scan at the depth the task needs.
 
