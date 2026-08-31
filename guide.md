@@ -1,0 +1,162 @@
+# Guide — Getting Started with antislop
+
+> New here? This guide explains what antislop is, how to install it from zero, and how to use it. If you already know what it is, jump straight to [Install](#install). To see the full rules, read [antislop.md](antislop.md).
+
+antislop is a set of standard agent skills: a core filter plus optional skills that go deeper into UI, copy, people, mobile layout, and code comments. It is a **filter, not a style guide**.
+
+---
+
+## What antislop does
+
+- A core filter of **mandatory rules** in three tiers:
+  - **Hard Gate** — absolute rules, never broken.
+  - **Purpose-Gate** — a technique is allowed, but a reason is required.
+  - **Quality Locks** — consistency rules.
+- A **Liveliness Toolkit** with three dials (`ENERGY` / `RHYTHM` / `MOTION`) and a **Design Read**, so the output is alive and specific, not just "clean".
+- A **Delivery Gate**: a PASS/FAIL report in four blocks, run before anything ships.
+- **Additive skills**, one per concern, so an agent only loads what a task needs.
+
+The core prevents slop but cannot invent direction. **Your** `DESIGN.md` supplies it. A sterile result means the direction was missing, not that the filter failed.
+
+---
+
+## Supported agents
+
+| Agent | Skill folder | Entry pointer |
+|---|---|---|
+| Claude Code | `.claude/skills` | `CLAUDE.md` |
+| Antigravity | `.agents/skills` | `AGENTS.md` |
+| Codex | `.codex/skills` | `AGENTS.md` |
+| OpenCode | `.opencode/skills` | `AGENTS.md` |
+| Cursor | `.cursor/skills` | `AGENTS.md` |
+| Gemini CLI | `.gemini/skills` | `GEMINI.md` |
+| Hermes | `~/.hermes/skills` (global only) | `AGENTS.md` |
+
+Every skill is a folder of the open Agent Skills standard (`<name>/SKILL.md`), so it drops into any agent that reads the standard.
+
+---
+
+## Install
+
+Pick one of the paths below. **The picker (path 1) is recommended** because it also writes the pointer that loads antislop into every session.
+
+### 1. The picker (recommended)
+
+One command, then choose which skills, where (project or global), and which agents:
+
+```bash
+npx antislop-ai
+```
+
+It shows the banner, lists the skills with the core locked on, asks where and which agents, then installs the folders and writes the pointer.
+
+> **If you already used path 2** (the skills directory), run `npx antislop-ai`, choose the same skills and agent, and pick **Keep what is there** when it finds existing folders. That writes the pointer.
+
+**Running from this repo instead:** `npm i` in the repo, then `npm run installer`.
+
+### 2. The skills directory
+
+antislop is an open directory-style skill package:
+
+```bash
+npx skills add muris11/anti-ai-slop
+```
+
+Add `--all` for every skill, `-g` for a global install, or `--skill <name>` for a single one. Run `--list` first to see what is available.
+
+> `npx skills add` copies skill folders but does **not** write the agent entry pointer that loads antislop every session. That is why the picker (path 1) is recommended. If you used this path first, follow the note under path 1.
+
+### 3. The plugin (Claude Code)
+
+Add the marketplace once, then install the plugin:
+
+```text
+/plugin marketplace add https://github.com/muris11/anti-ai-slop
+/plugin install antislop@anti-ai-slop
+```
+
+### 4. The plugin (Antigravity)
+
+The same repo is a full Antigravity plugin: a root `plugin.json`, the six skills registered as Antigravity skills, and a `rules/antislop.md` pointer that loads antislop into every session.
+
+```bash
+agy plugin install https://github.com/muris11/anti-ai-slop
+```
+
+### 5. Manual (single file, no packaging)
+
+The core `antislop.md` alone is a complete filter you can paste into any chat window. Download it and tell your agent to read it:
+
+```bash
+curl -o antislop.md https://raw.githubusercontent.com/muris11/anti-ai-slop/main/antislop.md
+```
+
+Windows (PowerShell):
+
+```powershell
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/muris11/anti-ai-slop/main/antislop.md -OutFile antislop.md
+```
+
+---
+
+## Skills
+
+| Skill | What it covers | Ships in |
+|---|---|---|
+| `antislop` | The core filter: rules, tiers, Delivery Gate, liveliness | v1.0.0 |
+| `antislop-ui` | UI / visual: layout, color, components, decoration, motion, structure | v1.0.0 |
+| `antislop-copywriting` | Copy & text: headlines, CTAs, tone, fake stats, anti-AI-writing patterns, markdown hygiene | v1.0.0 |
+| `antislop-human` | Human: contrast (with the checker), keyboard, focus, states | v1.0.0 |
+| `antislop-layoutmobile` | Mobile layout: responsive breakpoints, grids, overflow, tap targets, navigation | v1.0.0 |
+| `antislop-code` | Code comments: remove generic AI-slop comments, keep the valuable ones, never touch the code | v1.0.0 |
+| `slop` | One-shot loader that pulls in the whole antislop family at once | v1.0.0 |
+
+Pick what matches the work: UI work → `antislop-ui`, copy work → `antislop-copywriting`, people work → `antislop-human`, mobile layout work → `antislop-layoutmobile`, code comments work → `antislop-code`, more than one → install several, or none (the core alone is a complete filter).
+
+---
+
+## Usage modes
+
+antislop is used one of two ways, chosen at the start of a session:
+
+- **DURING** guides the work while it is built, ending with the Delivery Gate. Use it when building new UI.
+- **AFTER** audits finished work: a numbered findings list, you approve which to fix, then a follow-up report. Use it to clean up existing output.
+
+The core skill always asks: *"When does antislop apply: during the work, or after it is done?"* Answer before anything proceeds.
+
+---
+
+## Examples
+
+**Build a new landing page (DURING):** load `antislop` + `antislop-ui` + `antislop-copywriting`. It applies the rules as you build and finishes with the Delivery Gate report.
+
+**Audit an existing dashboard (AFTER):** load `antislop` + `antislop-ui` + `antislop-human`. It returns a numbered findings list; you approve which to fix, then it re-reports.
+
+**Write a blog post (copy only):** load `antislop` + `antislop-copywriting`.
+
+**Refactor comments in a repo (code only):** load `antislop` + `antislop-code`.
+
+---
+
+## FAQ
+
+**Is antislop a style guide?** No — a filter. It does not prescribe colors, fonts, or layouts. It rejects technique without purpose and requires liveliness; direction is yours (your `DESIGN.md`).
+
+**Which agents does it work with?** All of them, but the install paths differ:
+- The picker and the skills directory support Claude Code, Codex, Antigravity, OpenCode, Cursor, Gemini CLI, and Hermes (Hermes installs globally only). These are the recommended paths.
+- The plugins are per-agent doors: the Claude Code marketplace plugin and the Antigravity plugin, both installed from this repo.
+- The single file (`antislop.md`) works with any agent that reads plain Markdown, including a plain chat window.
+
+**What is a "skill"?** A folder that goes deeper into one concern (UI, copywriting, accessibility, and so on), holding a `SKILL.md` with its rules. It references the core rules by number and never duplicates them, so adding a skill does not change the core.
+
+**What are DURING and AFTER?** The two usage modes: DURING applies the rules while building, AFTER audits finished work. You pick one at the start of a session.
+
+---
+
+## Contributing
+
+Found a new AI slop pattern, a rule that missed something, or a bug in the installer? Open an issue. PRs are welcome for new AI slop patterns, clarifications, or checklist items out of sync with their rule.
+
+## License
+
+MIT — see [LICENSE](LICENSE).

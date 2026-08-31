@@ -1,0 +1,20 @@
+{
+  "name": "antislop",
+  "displayName": "antislop",
+  "version": "1.0.0",
+  "description": "Anti Slop: Rules for AI Coding Agents. Stops generic AI slop in generated UI, copy, and code. Loads as six skills.",
+  "author": {
+    "name": "muris11"
+  },
+  "repository": "https://github.com/muris11/anti-ai-slop",
+  "license": "MIT",
+  "keywords": ["ai-slop", "design-rules", "copy-rules", "agent-skills", "ui", "accessibility"],
+  "skills": ["./skills/"],
+  "mcpServers": {
+    "antislop-contrast": {
+      "command": "python",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/skills/antislop-human/contrast-mcp.py"],
+      "env": {}
+    }
+  }
+}

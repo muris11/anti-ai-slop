@@ -1,0 +1,10 @@
+# Internal audit/review documents (not published to the repo)
+docs/
+issue/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/

@@ -1,0 +1,41 @@
+{
+  "name": "antislop-ai",
+  "version": "1.0.0",
+  "description": "Interactive installer for the anti-ai-slop skills. Anti Slop: Rules for AI Coding Agents.",
+  "type": "module",
+  "bin": {
+    "antislop-ai": "index.mjs"
+  },
+  "license": "MIT",
+  "author": "muris11",
+  "homepage": "https://github.com/muris11/anti-ai-slop",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muris11/anti-ai-slop.git"
+  },
+  "keywords": [
+    "ai-slop",
+    "design-rules",
+    "copy-rules",
+    "agent-skills",
+    "ui",
+    "accessibility"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.mjs",
+    "lib/",
+    "skills/"
+  ],
+  "scripts": {
+    "sync-skills": "node scripts/sync-skills.mjs",
+    "prepublishOnly": "npm run sync-skills",
+    "test": "node scripts/smoke-test.mjs"
+  },
+  "dependencies": {
+    "@clack/prompts": "^1.7.0",
+    "picocolors": "^1.1.1"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "anti-ai-slop",
+  "version": "1.0.0",
+  "description": "Anti Slop: Rules for AI Coding Agents. Skills and installer to stop generic AI slop in generated UI, copy, and code.",
+  "type": "module",
+  "license": "MIT",
+  "author": "muris11",
+  "homepage": "https://github.com/muris11/anti-ai-slop",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muris11/anti-ai-slop.git"
+  },
+  "keywords": [
+    "ai-slop",
+    "design-rules",
+    "copy-rules",
+    "agent-skills",
+    "ui",
+    "accessibility"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "skills/",
+    "antislop.md",
+    "rules/",
+    "plugin.json"
+  ],
+  "scripts": {
+    "sync-skills": "node cli/scripts/sync-skills.mjs",
+    "installer": "node cli/index.mjs"
+  }
+}
