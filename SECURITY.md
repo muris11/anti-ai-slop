@@ -12,7 +12,7 @@ This document explains what is in the box, the trust boundaries, and how to repo
 - `antislop.md` — the standalone core rules, usable as a single file without packaging.
 - `skills/antislop-human/contrast-check.py` — a small local Python script that checks color contrast (run locally, no network, no dependencies beyond Python 3.8+).
 - `skills/antislop-human/contrast-mcp.py` — an optional MCP server that wraps the same contrast check. Loaded **only** if you enable the `antislop-contrast` MCP server in the Claude Code plugin (`.claude-plugin/plugin.json`).
-- `cli/` — the `antislop-ai` npm picker that copies skill folders into the agent folders you choose and writes a session pointer.
+- `cli/` — the `anti-ai-slop` npm picker that copies skill folders into the agent folders you choose and writes a session pointer.
 
 ## What it does not do
 

@@ -77,17 +77,9 @@ The catalog also ships a **Quick / Full / Deep** audit protocol so you can scan 
 
 `anti-ai-slop` is a set of standard agent skills (one folder per skill, each with a `SKILL.md`). Pick any path.
 
-### 1. The picker (recommended)
+### 1. The skills directory (works now, recommended)
 
-One command, then choose which skills, where (project or global), and which agents.
-
-```bash
-npx antislop-ai
-```
-
-The picker installs the folders and **writes the session pointer** that loads the filter every session. This is the only path that writes the pointer automatically.
-
-### 2. The skills directory
+This is the fastest path and is registered on [skills.sh](https://www.skills.sh/muris11/anti-ai-slop):
 
 ```bash
 npx skills add muris11/anti-ai-slop
@@ -95,7 +87,19 @@ npx skills add muris11/anti-ai-slop
 
 Add `--all` for every skill, `-g` for a global install, or `--skill <name>` for a single one. Run `--list` first.
 
-> This path copies skill folders but does **not** write the session pointer. If you used it, follow with the picker (path 1) and choose **Keep what is there**.
+> This path copies the skill folders. It does **not** write the session pointer that loads the filter every session. If you used it, follow with the picker (path 2) and choose **Keep what is there**.
+
+### 2. The interactive picker
+
+One command, then choose which skills, where (project or global), and which agents:
+
+```bash
+npx anti-ai-slop
+```
+
+The picker installs the folders and **writes the session pointer** that loads the filter every session — the only path that writes it automatically.
+
+> `anti-ai-slop` is published as an npm package. To run the picker from a clone instead, use `npm i && npm run installer` in the repo's `cli/` folder.
 
 ### 3. The plugin (Claude Code)
 
@@ -187,7 +191,7 @@ anti-ai-slop/
 ├── plugin.json                  # Antigravity plugin door
 ├── .claude-plugin/              # Claude Code marketplace plugin
 ├── rules/antislop.md            # session pointer for the Antigravity plugin
-├── cli/                         # the `antislop-ai` npm picker
+├── cli/                         # the `anti-ai-slop` npm picker
 │   ├── index.mjs
 │   └── lib/install.mjs          # multi-agent installer
 └── skills/                      # the 17 skills

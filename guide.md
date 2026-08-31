@@ -38,25 +38,9 @@ Every skill is a folder of the open Agent Skills standard (`<name>/SKILL.md`), s
 
 ## Install
 
-Pick one of the paths below. **The picker (path 1) is recommended** because it also writes the pointer that loads antislop into every session.
+Pick one of the paths below. **The skills directory (path 1)** is the fastest and is registered on skills.sh; **the picker (path 2)** is the only one that also writes the pointer that loads the filter into every session.
 
-### 1. The picker (recommended)
-
-One command, then choose which skills, where (project or global), and which agents:
-
-```bash
-npx antislop-ai
-```
-
-It shows the banner, lists the skills with the core locked on, asks where and which agents, then installs the folders and writes the pointer.
-
-> **If you already used path 2** (the skills directory), run `npx antislop-ai`, choose the same skills and agent, and pick **Keep what is there** when it finds existing folders. That writes the pointer.
-
-**Running from this repo instead:** `npm i` in the repo, then `npm run installer`.
-
-### 2. The skills directory
-
-antislop is an open directory-style skill package:
+### 1. The skills directory (works now, recommended)
 
 ```bash
 npx skills add muris11/anti-ai-slop
@@ -64,7 +48,21 @@ npx skills add muris11/anti-ai-slop
 
 Add `--all` for every skill, `-g` for a global install, or `--skill <name>` for a single one. Run `--list` first to see what is available.
 
-> `npx skills add` copies skill folders but does **not** write the agent entry pointer that loads antislop every session. That is why the picker (path 1) is recommended. If you used this path first, follow the note under path 1.
+> `npx skills add` copies skill folders but does **not** write the agent entry pointer that loads the filter every session. If you used it, follow the note under path 2.
+
+### 2. The interactive picker
+
+One command, then choose which skills, where (project or global), and which agents:
+
+```bash
+npx anti-ai-slop
+```
+
+It shows the banner, lists the skills with the core locked on, asks where and which agents, then installs the folders and writes the pointer.
+
+> **If you already used path 1** (the skills directory), run `npx anti-ai-slop`, choose the same skills and agent, and pick **Keep what is there** when it finds existing folders. That writes the pointer.
+
+**Running from this repo instead:** `npm i` in the repo's `cli/` folder, then `npm run installer`.
 
 ### 3. The plugin (Claude Code)
 

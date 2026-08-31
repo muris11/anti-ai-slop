@@ -75,15 +75,9 @@ Katalog ini juga punya protokol audit **Quick / Full / Deep** supaya bisa memind
 
 Ikuti salah satu jalur berikut.
 
-### 1. Picker (disarankan)
+### 1. Skills directory (berfungsi sekarang, disarankan)
 
-```bash
-npx antislop-ai
-```
-
-Picker menginstal folder dan **menulis pointer sesi** yang memuat filter setiap sesi. Satu-satunya jalur yang menulis pointer otomatis.
-
-### 2. Skills directory
+Jalur tercepat, dan terdaftar di [skills.sh](https://www.skills.sh/muris11/anti-ai-slop):
 
 ```bash
 npx skills add muris11/anti-ai-slop
@@ -91,7 +85,19 @@ npx skills add muris11/anti-ai-slop
 
 Tambahkan `--all`, `-g`, atau `--skill <nama>`. Jalankan `--list` dulu.
 
-> Jalur ini menyalin folder skill tapi **tidak** menulis pointer sesi. Kalau sudah pakai, lanjutkan dengan picker (jalur 1) dan pilih **Keep what is there**.
+> Jalur ini menyalin folder skill tapi **tidak** menulis pointer sesi. Kalau sudah pakai, lanjutkan dengan picker (jalur 2) dan pilih **Keep what is there**.
+
+### 2. Picker interaktif
+
+Satu perintah, lalu pilih skill mana, di mana (project atau global), dan agent mana:
+
+```bash
+npx anti-ai-slop
+```
+
+Picker menginstal folder dan **menulis pointer sesi** yang memuat filter setiap sesi — satu-satunya jalur yang menulis pointer otomatis.
+
+> `anti-ai-slop` dipublikasikan sebagai paket npm. Untuk menjalankan picker dari clone, gunakan `npm i && npm run installer` di folder `cli/` repo ini.
 
 ### 3. Plugin (Claude Code)
 

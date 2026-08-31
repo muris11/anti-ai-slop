@@ -48,7 +48,7 @@ Tracked changes and releases for anti-ai-slop.
   - `antislop-code` — code comment hygiene.
   - `slop` — one-shot loader for the whole family.
 - Built the packaging so the repo is installable in multiple ways:
-  - An npm picker CLI (`antislop-ai`) that installs into Claude Code, Codex, Antigravity, OpenCode, Cursor, Gemini CLI, and Hermes, and writes the agent entry pointer.
+  - An npm picker CLI (`anti-ai-slop`) that installs into Claude Code, Codex, Antigravity, OpenCode, Cursor, Gemini CLI, and Hermes, and writes the agent entry pointer.
   - A Claude Code marketplace plugin (`.claude-plugin/`).
   - An Antigravity plugin (`plugin.json` + `rules/antislop.md` pointer).
   - A `skills.sh`-readable skills directory.
