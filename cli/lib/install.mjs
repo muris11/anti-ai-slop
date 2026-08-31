@@ -113,10 +113,20 @@ const ENTRY_FILE = {
 
 const SKILL_LINES = {
   [CORE]: 'Core filter, always on: `antislop`',
+  'antislop-master': 'Master taxonomy (P0-P6): `antislop-master`',
   'antislop-ui': 'UI / visual: `antislop-ui`',
+  'antislop-layout': 'Layout / composition: `antislop-layout`',
   'antislop-copywriting': 'Copy & text: `antislop-copywriting`',
   'antislop-human': 'People: `antislop-human`',
   'antislop-layoutmobile': 'Mobile / responsive: `antislop-layoutmobile`',
+  'antislop-mobile': 'Mobile / native: `antislop-mobile`',
+  'antislop-dashboard': 'Dashboard / data: `antislop-dashboard`',
+  'antislop-forms': 'Forms / states: `antislop-forms`',
+  'antislop-motion': 'Motion: `antislop-motion`',
+  'antislop-nav': 'Navigation: `antislop-nav`',
+  'antislop-authenticity': 'Authenticity: `antislop-authenticity`',
+  'antislop-designsystem': 'Design system: `antislop-designsystem`',
+  'antislop-imagery': 'Imagery: `antislop-imagery`',
   'antislop-code': 'Code comments: `antislop-code`',
 }
 

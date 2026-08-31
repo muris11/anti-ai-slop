@@ -1,6 +1,6 @@
 {
   "name": "antislop-ai",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Interactive installer for the anti-ai-slop skills. Anti Slop: Rules for AI Coding Agents.",
   "type": "module",
   "bin": {

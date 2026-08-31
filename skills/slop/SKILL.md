@@ -1,23 +1,33 @@
 ---
 name: slop
-description: "One-shot loader for the full antislop family. Invoke when the user says 'slop', 'anti slop', 'antislop semua', or wants every antislop skill active at once for UI, copy, code, mobile layout, or accessibility work. Loads: antislop (core), antislop-code, antislop-copywriting, antislop-ui, antislop-layoutmobile, antislop-human."
+description: "One-shot loader for the full anti-ai-slop family. Invoke when the user says 'slop', 'anti slop', 'antislop semua', or wants every anti-ai-slop skill active at once for UI, copy, code, mobile, dashboard, motion, or accessibility work. Loads: antislop (core), antislop-master, antislop-ui, antislop-layout, antislop-copywriting, antislop-human, antislop-layoutmobile, antislop-mobile, antislop-dashboard, antislop-forms, antislop-motion, antislop-nav, antislop-authenticity, antislop-designsystem, antislop-imagery, antislop-code."
 ---
 
 # slop
 
-Load ALL antislop skills at once, then follow them for the rest of the session.
+Load ALL anti-ai-slop skills at once, then follow them for the rest of the session.
 
 ## Steps
 
 1. Invoke each skill via the skill tool, one after another, in this order:
    - `antislop` (core filter)
-   - `antislop-code`
-   - `antislop-copywriting`
+   - `antislop-master` (the P0–P6 taxonomy catalog)
    - `antislop-ui`
-   - `antislop-layoutmobile`
+   - `antislop-layout`
+   - `antislop-copywriting`
    - `antislop-human`
+   - `antislop-layoutmobile`
+   - `antislop-mobile`
+   - `antislop-dashboard`
+   - `antislop-forms`
+   - `antislop-motion`
+   - `antislop-nav`
+   - `antislop-authenticity`
+   - `antislop-designsystem`
+   - `antislop-imagery`
+   - `antislop-code`
 
-2. Follow the core `antislop` rules from there, with all five sub-skills' rules active simultaneously. No re-asking which sub-skill to install; the user already chose "all".
+2. Follow the core `antislop` rules from there, with all the sub-skills' rules active simultaneously. For a broad audit, start from `antislop-master`. No re-asking which sub-skill to install; the user already chose "all".
 
 3. If any skill fails to load or is missing, report which one, continue with the rest.
 

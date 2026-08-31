@@ -15,10 +15,20 @@ import {
 } from './lib/install.mjs'
 
 const EXTRA_SKILLS = [
+  { value: 'antislop-master', label: 'antislop-master', hint: 'the P0-P6 master taxonomy catalog' },
   { value: 'antislop-ui', label: 'antislop-ui', hint: 'UI and visual design rules' },
+  { value: 'antislop-layout', label: 'antislop-layout', hint: 'layout and composition rules' },
   { value: 'antislop-copywriting', label: 'antislop-copywriting', hint: 'copywriting and text rules' },
   { value: 'antislop-human', label: 'antislop-human', hint: 'accessibility, with the contrast checker' },
   { value: 'antislop-layoutmobile', label: 'antislop-layoutmobile', hint: 'mobile layout rules' },
+  { value: 'antislop-mobile', label: 'antislop-mobile', hint: 'mobile and Flutter/native UI rules' },
+  { value: 'antislop-dashboard', label: 'antislop-dashboard', hint: 'dashboard, charts, and data rules' },
+  { value: 'antislop-forms', label: 'antislop-forms', hint: 'forms, validation, and UX states' },
+  { value: 'antislop-motion', label: 'antislop-motion', hint: 'animation and interaction rules' },
+  { value: 'antislop-nav', label: 'antislop-nav', hint: 'navigation and footer rules' },
+  { value: 'antislop-authenticity', label: 'antislop-authenticity', hint: 'content authenticity and product intent' },
+  { value: 'antislop-designsystem', label: 'antislop-designsystem', hint: 'design-system consistency rules' },
+  { value: 'antislop-imagery', label: 'antislop-imagery', hint: 'imagery, illustration, and background rules' },
   { value: 'antislop-code', label: 'antislop-code', hint: 'code comment rules' },
 ]
 
@@ -34,7 +44,7 @@ function displayDir(agent) {
 
 async function main() {
   if (process.argv.includes('--version') || process.argv.includes('-v')) {
-    console.log('antislop 1.0.0')
+    console.log('antislop 2.0.0')
     return
   }
 

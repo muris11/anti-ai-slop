@@ -2,6 +2,22 @@
 
 Tracked changes and releases for anti-ai-slop.
 
+## v2.0.0 — master taxonomy
+
+- Added the **master taxonomy** (`antislop-master`): a P0–P6 severity-tiered catalog of ~180 indicators across color, typography, layout, components, copy, motion, UX states, authenticity, code, and platform. This is the canonical audit source for the whole system.
+- Added nine focused skills, each mapping back to master catalog codes:
+  - `antislop-layout` — hero, sections, symmetry, grids, spacing rhythm.
+  - `antislop-dashboard` — metric cards, charts, tables, complete states.
+  - `antislop-forms` — forms, validation, empty/loading/error/offline states.
+  - `antislop-motion` — animation with a UX reason, reduced-motion.
+  - `antislop-nav` — navigation, headers, footers, real IA, no dead links.
+  - `antislop-authenticity` — evidence, product intent, no fake data.
+  - `antislop-designsystem` — tokens, spacing scale, theme parity, hierarchy.
+  - `antislop-imagery` — illustrations, backgrounds, icons, media tied to product.
+  - `antislop-mobile` — mobile + Flutter/native reflow, tap targets, platform intent.
+- Reframed the core filter on the root cause (`no hierarchy + no specificity + no restraint + no opinion`) and pointed it to `antislop-master`.
+- Updated the picker CLI to offer and point to all skills. Version bumped to v2.0.0.
+
 ## v1.0.0 — initial public release
 
 - Shipped the core filter (`antislop`) with rules R-01 → R-38 in three tiers: Hard Gate, Purpose-Gate, Quality Locks.

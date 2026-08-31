@@ -1,6 +1,6 @@
 # anti-ai-slop
 
-**License:** MIT | **Version:** v1.0.0
+**License:** MIT | **Version:** v2.0.0
 
 [![skills.sh](https://img.shields.io/badge/skills.sh-anti--slop-6366f1?style=flat-square&logo=github)](https://skills.sh)
 
@@ -315,13 +315,23 @@ antislop works on **Windows**, **macOS**, and **Linux**. All installation paths 
 
 | Skill | What It Covers | Ships In |
 |-------|---------------|----------|
-| **antislop** | The core filter: rules, tiers, Delivery Gate, liveliness | v1.0.0 |
-| **antislop-ui** | UI / visual: layout, color, components, decoration, motion, structure | v1.0.0 |
-| **antislop-copywriting** | Copy & text: headlines, CTAs, tone, fake stats, anti-AI-writing patterns, markdown hygiene | v1.0.0 |
-| **antislop-human** | Human: contrast (with the checker), keyboard, focus, states | v1.0.0 |
-| **antislop-layoutmobile** | Mobile layout: responsive breakpoints, grids, overflow, tap targets, navigation | v1.0.0 |
-| **antislop-code** | Code comments: remove generic AI-slop comments, keep the valuable ones, never touch the code | v1.0.0 |
-| **slop** | One-shot loader that pulls in the whole antislop family (core + all skills) at once | v1.0.0 |
+| **antislop** | The core filter: rules, purpose test, Delivery Gate | v2.0.0 |
+| **antislop-master** | The P0–P6 master taxonomy: ~180 indicators across color, type, layout, components, copy, motion, UX states, authenticity, code, and platform | v2.0.0 |
+| **antislop-ui** | UI / visual: layout, color, components, decoration, motion, structure | v2.0.0 |
+| **antislop-layout** | Layout & composition: hero, sections, symmetry, grids, spacing rhythm | v2.0.0 |
+| **antislop-copywriting** | Copy & text: headlines, CTAs, tone, fake stats, anti-AI-writing patterns, markdown hygiene | v2.0.0 |
+| **antislop-human** | Human: contrast (with the checker), keyboard, focus, states | v2.0.0 |
+| **antislop-layoutmobile** | Mobile layout: responsive breakpoints, grids, overflow, tap targets, navigation | v2.0.0 |
+| **antislop-mobile** | Mobile & native: reflow, no overflow, 44px targets, Flutter/native intent | v2.0.0 |
+| **antislop-dashboard** | Dashboard / data: metric cards, charts, tables, complete states | v2.0.0 |
+| **antislop-forms** | Forms & states: validation, empty/loading/error/offline, keyboard-reachable | v2.0.0 |
+| **antislop-motion** | Motion: a UX reason, one focal animation, easing, reduced-motion | v2.0.0 |
+| **antislop-nav** | Navigation & chrome: real IA, no dead links, honest footer | v2.0.0 |
+| **antislop-authenticity** | Authenticity: no fake metrics, testimonials, logos, or claims | v2.0.0 |
+| **antislop-designsystem** | Design-system consistency: real tokens, spacing scale, theme parity | v2.0.0 |
+| **antislop-imagery** | Imagery & decoration: illustrations, backgrounds, icons, media tied to product | v2.0.0 |
+| **antislop-code** | Code comments: remove generic AI-slop comments, keep the valuable ones, never touch the code | v2.0.0 |
+| **slop** | One-shot loader that pulls in the whole anti-ai-slop family at once | v2.0.0 |
 
 Pick what matches the work:
 - **UI work** -> `antislop-ui`
@@ -514,7 +524,8 @@ The agent does not modify anything until you approve specific numbers. Numbers n
 
 | Version | Changes |
 |---------|---------|
-| v1.0.0 | Initial public release. Ships the core filter (R-01 → R-38), the Liveliness Toolkit, and the Delivery Gate, plus six additive skills (UI, copywriting, human, layout-mobile, code, and the `slop` loader). Ships packaging for all install paths: the npm picker, the skills directory, the Claude Code marketplace plugin, the Antigravity plugin, and the single-file manual path. |
+| v1.0.0 | Initial public release. Ships the core filter, the Liveliness Toolkit, the Delivery Gate, and six additive skills (UI, copywriting, human, layout-mobile, code, and the `slop` loader). Ships packaging for every install path: the npm picker, the skills directory, the Claude Code marketplace plugin, the Antigravity plugin, and the single-file manual path. |
+| v2.0.0 | Add the **master taxonomy** (`antislop-master`): a P0–P6 severity-tiered catalog of ~180 indicators spanning color, typography, layout, components, copy, motion, UX states, authenticity, code, and platform. Adds nine focused skills — layout, dashboard, forms, motion, nav, authenticity, design-system, imagery, and mobile/native (incl. Flutter). Reframes the core on the root cause (`no hierarchy + no specificity + no restraint + no opinion`) and points to the master as the canonical audit source. |
 
 See [ROADMAP.md](ROADMAP.md) for the full tracker, including the cross-agent plugin plan.
 
@@ -899,13 +910,23 @@ antislop bekerja di **Windows**, **macOS**, dan **Linux**. Semua jalur instalasi
 
 | Skill | Apa yang Dicakup | Ships In |
 |-------|-----------------|----------|
-| **antislop** | Filter core: aturan, tier, Delivery Gate, kehidupan | v1.0.0 |
-| **antislop-ui** | UI / visual: layout, warna, komponen, dekorasi, motion, struktur | v1.0.0 |
-| **antislop-copywriting** | Teks & copy: headline, CTA, tone, stats palsu, pola anti-AI-writing, kebersihan markdown | v1.0.0 |
-| **antislop-human** | Aksesibilitas: kontras (dengan checker), keyboard, fokus, state | v1.0.0 |
-| **antislop-layoutmobile** | Layout mobile: breakpoint responsif, grid, overflow, tap target, navigasi | v1.0.0 |
-| **antislop-code** | Komentar kode: hapus komentar AI-slop generik, pertahankan yang berharga, jangan sentuh kodenya | v1.0.0 |
-| **slop** | Loader sekali-jalan yang memuat seluruh keluarga antislop (core + semua skill) sekaligus | v1.0.0 |
+| **antislop** | Filter core: aturan, purpose test, Delivery Gate | v2.0.0 |
+| **antislop-master** | Taksonomi master P0–P6: ~180 indikator mencakup warna, tipografi, layout, komponen, copy, motion, state UX, autentisitas, kode, dan platform | v2.0.0 |
+| **antislop-ui** | UI / visual: layout, warna, komponen, dekorasi, motion, struktur | v2.0.0 |
+| **antislop-layout** | Layout & komposisi: hero, section, simetri, grid, ritme spacing | v2.0.0 |
+| **antislop-copywriting** | Teks & copy: headline, CTA, tone, stats palsu, pola anti-AI-writing, kebersihan markdown | v2.0.0 |
+| **antislop-human** | Aksesibilitas: kontras (dengan checker), keyboard, fokus, state | v2.0.0 |
+| **antislop-layoutmobile** | Layout mobile: breakpoint responsif, grid, overflow, tap target, navigasi | v2.0.0 |
+| **antislop-mobile** | Mobile & native: reflow, tanpa overflow, target 44px, intent Flutter/native | v2.0.0 |
+| **antislop-dashboard** | Dashboard / data: metric card, chart, tabel, state lengkap | v2.0.0 |
+| **antislop-forms** | Form & state: validasi, empty/loading/error/offline, bisa diakses keyboard | v2.0.0 |
+| **antislop-motion** | Motion: alasan UX, satu animasi fokus, easing, reduced-motion | v2.0.0 |
+| **antislop-nav** | Navigasi & chrome: IA nyata, tanpa dead link, footer jujur | v2.0.0 |
+| **antislop-authenticity** | Autentisitas: tanpa metric, testimoni, logo, atau klaim palsu | v2.0.0 |
+| **antislop-designsystem** | Konsistensi design system: token nyata, skala spacing, paritas tema | v2.0.0 |
+| **antislop-imagery** | Imagery & dekorasi: ilustrasi, background, ikon, media terhubung ke produk | v2.0.0 |
+| **antislop-code** | Komentar kode: hapus komentar AI-slop generik, pertahankan yang berharga, jangan sentuh kodenya | v2.0.0 |
+| **slop** | Loader sekali-jalan yang memuat seluruh keluarga anti-ai-slop sekaligus | v2.0.0 |
 
 Pilih yang sesuai dengan pekerjaan:
 - **Pekerjaan UI** -> `antislop-ui`
@@ -1098,7 +1119,8 @@ Agent tidak memodifikasi apa pun sampai kamu menyetujui nomor tertentu. Nomor ya
 
 | Versi | Perubahan |
 |-------|-----------|
-| v1.0.0 | Rilis perdana. Mengirim filter core (R-01 → R-38), Toolkit Kehidupan, dan Delivery Gate, plus enam skill tambahan (UI, copywriting, human, layout-mobile, code, dan loader `slop`). Mengirim packaging untuk semua jalur instalasi: picker npm, skills directory, plugin marketplace Claude Code, plugin Antigravity, dan jalur manual single-file. |
+| v1.0.0 | Rilis perdana. Mengirim filter core, Toolkit Kehidupan, Delivery Gate, dan enam skill tambahan (UI, copywriting, human, layout-mobile, code, dan loader `slop`). Mengirim packaging untuk semua jalur instalasi: picker npm, skills directory, plugin marketplace Claude Code, plugin Antigravity, dan jalur manual single-file. |
+| v2.0.0 | Menambahkan **taksonomi master** (`antislop-master`): katalog ~180 indikator ber-tier P0–P6 meliputi warna, tipografi, layout, komponen, copy, motion, state UX, autentisitas, kode, dan platform. Menambahkan sembilan skill fokus — layout, dashboard, forms, motion, nav, authenticity, design-system, imagery, dan mobile/native (termasuk Flutter). Merangkai ulang core pada akar masalah (`no hierarchy + no specificity + no restraint + no opinion`) dan menunjuk master sebagai sumber audit kanonik. |
 
 Lihat [ROADMAP.md](ROADMAP.md) untuk tracker lengkap, termasuk rencana plugin cross-agent.
 

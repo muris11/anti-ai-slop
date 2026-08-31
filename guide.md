@@ -103,15 +103,25 @@ Invoke-WebRequest -Uri https://raw.githubusercontent.com/muris11/anti-ai-slop/ma
 
 | Skill | What it covers | Ships in |
 |---|---|---|
-| `antislop` | The core filter: rules, tiers, Delivery Gate, liveliness | v1.0.0 |
-| `antislop-ui` | UI / visual: layout, color, components, decoration, motion, structure | v1.0.0 |
-| `antislop-copywriting` | Copy & text: headlines, CTAs, tone, fake stats, anti-AI-writing patterns, markdown hygiene | v1.0.0 |
-| `antislop-human` | Human: contrast (with the checker), keyboard, focus, states | v1.0.0 |
-| `antislop-layoutmobile` | Mobile layout: responsive breakpoints, grids, overflow, tap targets, navigation | v1.0.0 |
-| `antislop-code` | Code comments: remove generic AI-slop comments, keep the valuable ones, never touch the code | v1.0.0 |
-| `slop` | One-shot loader that pulls in the whole antislop family at once | v1.0.0 |
+| `antislop` | The core filter: rules, purpose test, Delivery Gate. Load always. | v2.0.0 |
+| `antislop-master` | The P0–P6 master taxonomy: ~180 indicators across color, type, layout, components, copy, motion, UX states, authenticity, code, and platform. The canonical audit source. | v2.0.0 |
+| `antislop-ui` | UI / visual: layout, color, components, decoration, motion, structure | v2.0.0 |
+| `antislop-layout` | Layout & composition: hero, sections, symmetry, grids, spacing rhythm | v2.0.0 |
+| `antislop-copywriting` | Copy & text: headlines, CTAs, tone, fake stats, anti-AI-writing patterns, markdown hygiene | v2.0.0 |
+| `antislop-human` | Human: contrast (with the checker), keyboard, focus, states | v2.0.0 |
+| `antislop-layoutmobile` | Mobile layout: responsive breakpoints, grids, overflow, tap targets, navigation | v2.0.0 |
+| `antislop-mobile` | Mobile & native: reflow, no overflow, 44px targets, Flutter/native intent | v2.0.0 |
+| `antislop-dashboard` | Dashboard / data: metric cards, charts, tables, complete states | v2.0.0 |
+| `antislop-forms` | Forms & states: validation, empty/loading/error/offline, keyboard-reachable | v2.0.0 |
+| `antislop-motion` | Motion: a UX reason, one focal animation, easing, reduced-motion | v2.0.0 |
+| `antislop-nav` | Navigation & chrome: real IA, no dead links, honest footer | v2.0.0 |
+| `antislop-authenticity` | Authenticity: no fake metrics, testimonials, logos, or claims | v2.0.0 |
+| `antislop-designsystem` | Design-system consistency: real tokens, spacing scale, theme parity | v2.0.0 |
+| `antislop-imagery` | Imagery & decoration: illustrations, backgrounds, icons, media tied to product | v2.0.0 |
+| `antislop-code` | Code comments: remove generic AI-slop comments, keep the valuable ones, never touch the code | v2.0.0 |
+| `slop` | One-shot loader that pulls in the whole anti-ai-slop family at once | v2.0.0 |
 
-Pick what matches the work: UI work → `antislop-ui`, copy work → `antislop-copywriting`, people work → `antislop-human`, mobile layout work → `antislop-layoutmobile`, code comments work → `antislop-code`, more than one → install several, or none (the core alone is a complete filter).
+Pick what matches the work: the master for a broad audit, UI work → `antislop-ui`, layout → `antislop-layout`, copy → `antislop-copywriting`, people → `antislop-human`, mobile layout → `antislop-layoutmobile`, native/mobile → `antislop-mobile`, dashboards → `antislop-dashboard`, forms/states → `antislop-forms`, motion → `antislop-motion`, nav → `antislop-nav`, claims/evidence → `antislop-authenticity`, design systems → `antislop-designsystem`, visuals → `antislop-imagery`, code comments → `antislop-code`, more than one → install several, or none (the core alone is a complete filter).
 
 ---
 
