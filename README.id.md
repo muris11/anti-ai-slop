@@ -11,7 +11,7 @@ Sebuah filter yang menghentikan AI agent menghasilkan UI, teks, dan kode **AI sl
 &nbsp;
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.0.2-6366f1?style=flat-square)](#)
+[![Version](https://img.shields.io/badge/version-2.0.3-6366f1?style=flat-square)](#)
 [![skills.sh](https://img.shields.io/badge/skills.sh-muris11%2Fanti--ai--slop-111827?style=flat-square&logo=github)](https://www.skills.sh/muris11/anti-ai-slop)
 [![GitHub stars](https://img.shields.io/github/stars/muris11/anti-ai-slop?style=flat-square)](https://github.com/muris11/anti-ai-slop)
 
@@ -128,23 +128,23 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/muris11/anti-ai-slop/m
 
 | Skill | Cakupan | Ships in |
 |---|---|---|
-| **antislop** | Filter inti selalu-aktif: tes tujuan, tier aturan, Delivery Gate | v2.0.2 |
-| **antislop-master** | Taksonomi master P0–P6: ~180 indikator + protokol audit | v2.0.2 |
-| **antislop-ui** | UI & visual: warna, komponen, dekorasi, motion, struktur | v2.0.2 |
-| **antislop-layout** | Layout & komposisi: hero, section, simetri, grid, spacing | v2.0.2 |
-| **antislop-copywriting** | Teks & copy: headline, CTA, tone, pola anti-AI-writing | v2.0.2 |
-| **antislop-human** | Manusia: kontras (dengan checker), keyboard, fokus, state | v2.0.2 |
-| **antislop-layoutmobile** | Layout mobile: breakpoint, grid, overflow, tap target | v2.0.2 |
-| **antislop-mobile** | Mobile & native: reflow, tanpa overflow, target 44px, Flutter | v2.0.2 |
-| **antislop-dashboard** | Dashboard & data: metric card, chart, tabel, state lengkap | v2.0.2 |
-| **antislop-forms** | Form & state: validasi, empty/loading/error/offline | v2.0.2 |
-| **antislop-motion** | Motion: alasan UX, satu animasi fokus, reduced-motion | v2.0.2 |
-| **antislop-nav** | Navigasi & chrome: IA nyata, tanpa dead link, footer jujur | v2.0.2 |
-| **antislop-authenticity** | Autentisitas: tanpa metric, testimoni, logo, atau klaim palsu | v2.0.2 |
-| **antislop-designsystem** | Konsistensi design system: token nyata, skala spacing, paritas tema | v2.0.2 |
-| **antislop-imagery** | Imagery & dekorasi: ilustrasi, background, ikon, media | v2.0.2 |
-| **antislop-code** | Komentar kode: hapus komentar AI-slop, pertahankan yang berharga | v2.0.2 |
-| **slop** | Loader sekali-jalan untuk seluruh keluarga sekaligus | v2.0.2 |
+| **antislop** | Filter inti selalu-aktif: tes tujuan, tier aturan, Delivery Gate | v2.0.3 |
+| **antislop-master** | Taksonomi master P0–P6: ~180 indikator + protokol audit | v2.0.3 |
+| **antislop-ui** | UI & visual: warna, komponen, dekorasi, motion, struktur | v2.0.3 |
+| **antislop-layout** | Layout & komposisi: hero, section, simetri, grid, spacing | v2.0.3 |
+| **antislop-copywriting** | Teks & copy: headline, CTA, tone, pola anti-AI-writing | v2.0.3 |
+| **antislop-human** | Manusia: kontras (dengan checker), keyboard, fokus, state | v2.0.3 |
+| **antislop-layoutmobile** | Layout mobile: breakpoint, grid, overflow, tap target | v2.0.3 |
+| **antislop-mobile** | Mobile & native: reflow, tanpa overflow, target 44px, Flutter | v2.0.3 |
+| **antislop-dashboard** | Dashboard & data: metric card, chart, tabel, state lengkap | v2.0.3 |
+| **antislop-forms** | Form & state: validasi, empty/loading/error/offline | v2.0.3 |
+| **antislop-motion** | Motion: alasan UX, satu animasi fokus, reduced-motion | v2.0.3 |
+| **antislop-nav** | Navigasi & chrome: IA nyata, tanpa dead link, footer jujur | v2.0.3 |
+| **antislop-authenticity** | Autentisitas: tanpa metric, testimoni, logo, atau klaim palsu | v2.0.3 |
+| **antislop-designsystem** | Konsistensi design system: token nyata, skala spacing, paritas tema | v2.0.3 |
+| **antislop-imagery** | Imagery & dekorasi: ilustrasi, background, ikon, media | v2.0.3 |
+| **antislop-code** | Komentar kode: hapus komentar AI-slop, pertahankan yang berharga | v2.0.3 |
+| **slop** | Loader sekali-jalan untuk seluruh keluarga sekaligus | v2.0.3 |
 
 ---
 
@@ -177,7 +177,7 @@ Core meminta, *"Kapan ini berlaku — selama pekerjaan, atau setelah selesai?"* 
 
 ## Roadmap
 
-Lihat [ROADMAP.md](ROADMAP.md). **v2.0.0** menambahkan taksonomi master dan sembilan skill fokus; **v2.0.1** merapikan README, memfinalisasi lisensi, dan memverifikasi indeks skills.sh; **v2.0.2** memisahkan README menjadi bahasa Inggris dan Indonesia, lalu menulis ulang SECURITY.md.
+Lihat [ROADMAP.md](ROADMAP.md). **v2.0.0** menambahkan taksonomi master dan sembilan skill fokus; **v2.0.1** merapikan README, memfinalisasi lisensi, dan memverifikasi indeks skills.sh; **v2.0.2** memisahkan README menjadi bahasa Inggris dan Indonesia, lalu menulis ulang SECURITY.md; **v2.0.3** menambahkan CI, contributing, template, dan polesan repo.
 
 ---
 

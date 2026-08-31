@@ -1,0 +1,16 @@
+# Normalize line endings: LF end-of-line, keep them consistent across all OSes.
+* text=auto eol=lf
+
+# Explicitly mark these as text (they should not be treated as binary)
+*.md        text eol=lf
+*.json      text eol=lf
+*.mjs       text eol=lf
+*.yaml      text eol=lf
+*.yml       text eol=lf
+*.py        text eol=lf
+*.gitignore text eol=lf
+
+# Binary files — never touch these
+*.png        binary
+*.jpg        binary
+*.ico        binary

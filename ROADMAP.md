@@ -2,6 +2,15 @@
 
 Tracked changes and releases for anti-ai-slop.
 
+## v2.0.3 — project completeness
+
+- Added `CONTRIBUTING.md` (how to add an indicator, fix the installer, and submit).
+- Added `.gitattributes` to normalize line endings (LF) across all files.
+- Added GitHub actions CI (`.github/workflows/ci.yml`): validates JSON manifests, verifies every skill has `name` + `description` frontmatter, and runs the installer smoke test on push and PR.
+- Added GitHub issue and pull-request templates.
+- Added root `npm test` / `npm run check` scripts and a `publishConfig` to the CLI package so the picker is ready to publish as `anti-ai-slop`.
+- Version bumped to v2.0.3 across package, plugin, CLI, READMEs, and guide.
+
 ## v2.0.2 — bilingual README split + security polish
 
 - Split the README into two standalone documents, each with a crossing language link:

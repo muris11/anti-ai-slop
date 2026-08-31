@@ -11,7 +11,7 @@ A filter that stops AI agents from generating generic **AI slop** in UI, copy, a
 &nbsp;
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.0.2-6366f1?style=flat-square)](#)
+[![Version](https://img.shields.io/badge/version-2.0.3-6366f1?style=flat-square)](#)
 [![skills.sh](https://img.shields.io/badge/skills.sh-muris11%2Fanti--ai--slop-111827?style=flat-square&logo=github)](https://www.skills.sh/muris11/anti-ai-slop)
 [![GitHub stars](https://img.shields.io/github/stars/muris11/anti-ai-slop?style=flat-square)](https://github.com/muris11/anti-ai-slop)
 
@@ -130,23 +130,23 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/muris11/anti-ai-slop/m
 
 | Skill | What it covers | Ships in |
 |---|---|---|
-| **antislop** | The always-on core filter: purpose test, rule tiers, Delivery Gate | v2.0.2 |
-| **antislop-master** | The P0–P6 master taxonomy: ~180 indicators + audit protocol | v2.0.2 |
-| **antislop-ui** | UI & visual: color, components, decoration, motion, structure | v2.0.2 |
-| **antislop-layout** | Layout & composition: hero, sections, symmetry, grids, spacing | v2.0.2 |
-| **antislop-copywriting** | Copy & text: headlines, CTAs, tone, anti-AI-writing patterns | v2.0.2 |
-| **antislop-human** | People: contrast (with checker), keyboard, focus, states | v2.0.2 |
-| **antislop-layoutmobile** | Mobile layout: breakpoints, grids, overflow, tap targets | v2.0.2 |
-| **antislop-mobile** | Mobile & native: reflow, no overflow, 44px targets, Flutter | v2.0.2 |
-| **antislop-dashboard** | Dashboard & data: metric cards, charts, tables, complete states | v2.0.2 |
-| **antislop-forms** | Forms & states: validation, empty/loading/error/offline | v2.0.2 |
-| **antislop-motion** | Motion: a UX reason, one focal animation, reduced-motion | v2.0.2 |
-| **antislop-nav** | Navigation & chrome: real IA, no dead links, honest footer | v2.0.2 |
-| **antislop-authenticity** | Authenticity: no fake metrics, testimonials, logos, or claims | v2.0.2 |
-| **antislop-designsystem** | Design-system consistency: real tokens, spacing scale, theme parity | v2.0.2 |
-| **antislop-imagery** | Imagery & decoration: illustrations, backgrounds, icons, media | v2.0.2 |
-| **antislop-code** | Code comments: remove AI-slop comments, keep the valuable ones | v2.0.2 |
-| **slop** | One-shot loader for the whole family at once | v2.0.2 |
+| **antislop** | The always-on core filter: purpose test, rule tiers, Delivery Gate | v2.0.3 |
+| **antislop-master** | The P0–P6 master taxonomy: ~180 indicators + audit protocol | v2.0.3 |
+| **antislop-ui** | UI & visual: color, components, decoration, motion, structure | v2.0.3 |
+| **antislop-layout** | Layout & composition: hero, sections, symmetry, grids, spacing | v2.0.3 |
+| **antislop-copywriting** | Copy & text: headlines, CTAs, tone, anti-AI-writing patterns | v2.0.3 |
+| **antislop-human** | People: contrast (with checker), keyboard, focus, states | v2.0.3 |
+| **antislop-layoutmobile** | Mobile layout: breakpoints, grids, overflow, tap targets | v2.0.3 |
+| **antislop-mobile** | Mobile & native: reflow, no overflow, 44px targets, Flutter | v2.0.3 |
+| **antislop-dashboard** | Dashboard & data: metric cards, charts, tables, complete states | v2.0.3 |
+| **antislop-forms** | Forms & states: validation, empty/loading/error/offline | v2.0.3 |
+| **antislop-motion** | Motion: a UX reason, one focal animation, reduced-motion | v2.0.3 |
+| **antislop-nav** | Navigation & chrome: real IA, no dead links, honest footer | v2.0.3 |
+| **antislop-authenticity** | Authenticity: no fake metrics, testimonials, logos, or claims | v2.0.3 |
+| **antislop-designsystem** | Design-system consistency: real tokens, spacing scale, theme parity | v2.0.3 |
+| **antislop-imagery** | Imagery & decoration: illustrations, backgrounds, icons, media | v2.0.3 |
+| **antislop-code** | Code comments: remove AI-slop comments, keep the valuable ones | v2.0.3 |
+| **slop** | One-shot loader for the whole family at once | v2.0.3 |
 
 ---
 
@@ -204,7 +204,7 @@ anti-ai-slop/
 
 ## Roadmap
 
-See [ROADMAP.md](ROADMAP.md). Highlights: **v2.0.0** added the master taxonomy and nine focused skills; **v2.0.1** polished the README, finalized the license, and verified skills.sh indexing; **v2.0.2** split the README into English and Indonesian and rewrote SECURITY.md.
+See [ROADMAP.md](ROADMAP.md). Highlights: **v2.0.0** added the master taxonomy and nine focused skills; **v2.0.1** polished the README, finalized the license, and verified skills.sh indexing; **v2.0.2** split the README into English and Indonesian and rewrote SECURITY.md; **v2.0.3** added CI, contributing, templates, and repo polishing.
 
 ---
 

@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate & smoke test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install CLI dependencies
+        working-directory: cli
+        run: npm ci
+
+      - name: Sync skills (default core regeneration)
+        run: npm run sync-skills
+
+      - name: Validate JSON manifests
+        run: |
+          node -e "['package.json','cli/package.json','plugin.json','.claude-plugin/marketplace.json','.claude-plugin/plugin.json'].forEach(f=>{JSON.parse(require('fs').readFileSync(f,'utf8'));console.log('ok',f)})"
+
+      - name: Verify every skill has name + description frontmatter
+        run: |
+          for d in skills/*/; do
+            n=$(grep -c '^name:' "$d/SKILL.md")
+            ds=$(grep -c '^description:' "$d/SKILL.md")
+            echo "$d name=$n desc=$ds"
+            test "$n" -ge 1 || { echo "missing name in $d"; exit 1; }
+            test "$ds" -ge 1 || { echo "missing description in $d"; exit 1; }
+          done
+
+      - name: Run the installer smoke test
+        working-directory: cli
+        run: npm test
+
+      - name: Run the picker --version
+        working-directory: cli
+        run: node index.mjs --version

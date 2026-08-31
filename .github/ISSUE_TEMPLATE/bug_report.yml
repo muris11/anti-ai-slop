@@ -1,0 +1,25 @@
+---
+name: Report an issue
+about: Report a bug, a new AI-slop pattern, or a rule clarification
+title: ""
+labels: ""
+assignees: ""
+---
+
+## Describe the issue
+
+A clear and concise description of the problem.
+
+## What were you doing?
+
+Steps or context that led to the issue.
+
+## Expected vs. actual
+
+What you expected to happen vs. what happened.
+
+## Environment
+
+- Agent(s): (e.g. Claude Code, Codex, OpenCode)
+- OS: (e.g. Windows, macOS, Linux)
+- Version: (e.g. v2.0.3)
