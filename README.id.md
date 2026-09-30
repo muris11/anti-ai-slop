@@ -185,7 +185,7 @@ Core meminta, *"Kapan ini berlaku — selama pekerjaan, atau setelah selesai?"* 
 
 ## Roadmap
 
-Lihat [ROADMAP.md](ROADMAP.md). **v2.0.0** menambahkan taksonomi master dan sembilan skill fokus; **v2.0.1** merapikan README, memfinalisasi lisensi, dan memverifikasi indeks skills.sh; **v2.0.2** memisahkan README menjadi bahasa Inggris dan Indonesia, lalu menulis ulang SECURITY.md; **v2.0.3** menambahkan CI, contributing, template, dan polesan repo; **v2.1.0** memublikasikan picker interaktif, jadi `npx anti-ai-slop` benar-benar one-command.
+Lihat [ROADMAP.md](ROADMAP.md) untuk arah dan [CHANGELOG.md](CHANGELOG.md) untuk catatan rilis per versi. **v2.0.0** menambahkan taksonomi master dan sembilan skill fokus; **v2.0.1** merapikan README, memfinalisasi lisensi, dan memverifikasi indeks skills.sh; **v2.0.2** memisahkan README menjadi bahasa Inggris dan Indonesia, lalu menulis ulang SECURITY.md; **v2.0.3** menambahkan CI, contributing, template, dan polesan repo; **v2.1.0** memublikasikan picker interaktif, jadi `npx anti-ai-slop` benar-benar one-command.
 
 ---
 

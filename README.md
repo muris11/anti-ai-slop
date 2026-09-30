@@ -194,6 +194,7 @@ anti-ai-slop/
 ├── antislop.md                  # standalone core rules (single-file path)
 ├── guide.md                     # getting-started guide
 ├── ROADMAP.md                   # release history
+├── CHANGELOG.md                 # versioned changelog (Keep a Changelog)
 ├── SECURITY.md                  # security boundaries
 ├── LICENSE
 ├── plugin.json                  # Antigravity plugin door
@@ -212,7 +213,7 @@ anti-ai-slop/
 
 ## Roadmap
 
-See [ROADMAP.md](ROADMAP.md). Highlights: **v2.0.0** added the master taxonomy and nine focused skills; **v2.0.1** polished the README, finalized the license, and verified skills.sh indexing; **v2.0.2** split the README into English and Indonesian and rewrote SECURITY.md; **v2.0.3** added CI, contributing, templates, and repo polishing; **v2.1.0** published the interactive picker, so `npx anti-ai-slop` is a real one-command install.
+See [ROADMAP.md](ROADMAP.md) for direction and [CHANGELOG.md](CHANGELOG.md) for the versioned release notes. Highlights: **v2.0.0** added the master taxonomy and nine focused skills; **v2.0.1** polished the README, finalized the license, and verified skills.sh indexing; **v2.0.2** split the README into English and Indonesian and rewrote SECURITY.md; **v2.0.3** added CI, contributing, templates, and repo polishing; **v2.1.0** published the interactive picker, so `npx anti-ai-slop` is a real one-command install.
 
 ---
 
