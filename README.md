@@ -13,6 +13,7 @@ A filter that stops AI agents from generating generic **AI slop** in UI, copy, a
 &nbsp;
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
+[![CI](https://github.com/muris11/anti-ai-slop/actions/workflows/ci.yml/badge.svg)](https://github.com/muris11/anti-ai-slop/actions/workflows/ci.yml)
 [![Version](https://img.shields.io/badge/version-2.1.0-6366f1?style=flat-square)](#)
 [![skills.sh](https://img.shields.io/badge/skills.sh-muris11%2Fanti--ai--slop-111827?style=flat-square&logo=github)](https://www.skills.sh/muris11/anti-ai-slop)
 [![GitHub stars](https://img.shields.io/github/stars/muris11/anti-ai-slop?style=flat-square)](https://github.com/muris11/anti-ai-slop)
@@ -194,6 +195,8 @@ anti-ai-slop/
 ├── antislop.md                  # standalone core rules (single-file path)
 ├── guide.md                     # getting-started guide
 ├── ROADMAP.md                   # release history
+├── CONTRIBUTING.md              # how to contribute
+├── CODE_OF_CONDUCT.md           # community standards
 ├── CHANGELOG.md                 # versioned changelog (Keep a Changelog)
 ├── SECURITY.md                  # security boundaries
 ├── LICENSE

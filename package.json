@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/muris11/anti-ai-slop.git"
   },
+  "bugs": {
+    "url": "https://github.com/muris11/anti-ai-slop/issues"
+  },
   "keywords": [
     "ai-slop",
     "design-rules",

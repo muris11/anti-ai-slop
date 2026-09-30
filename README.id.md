@@ -13,6 +13,7 @@ Sebuah filter yang menghentikan AI agent menghasilkan UI, teks, dan kode **AI sl
 &nbsp;
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
+[![CI](https://github.com/muris11/anti-ai-slop/actions/workflows/ci.yml/badge.svg)](https://github.com/muris11/anti-ai-slop/actions/workflows/ci.yml)
 [![Version](https://img.shields.io/badge/version-2.1.0-6366f1?style=flat-square)](#)
 [![skills.sh](https://img.shields.io/badge/skills.sh-muris11%2Fanti--ai--slop-111827?style=flat-square&logo=github)](https://www.skills.sh/muris11/anti-ai-slop)
 [![GitHub stars](https://img.shields.io/github/stars/muris11/anti-ai-slop?style=flat-square)](https://github.com/muris11/anti-ai-slop)

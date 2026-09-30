@@ -54,3 +54,5 @@ Then, if it's area-specific, mirror it in the matching domain skill (`-ui`, `-la
 ## License
 
 By contributing, you agree that your contributions are licensed under the [MIT License](LICENSE).
+
+Participation in this project is governed by the [Code of Conduct](CODE_OF_CONDUCT.md).
